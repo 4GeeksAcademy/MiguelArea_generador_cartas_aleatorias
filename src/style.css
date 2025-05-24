@@ -1,5 +1,49 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: #21a021; 
+    
+}
 
-body{
-    background: white;
+.card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-size: 2rem;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-top: 40px;
+}
+
+.corazon, .diamante {
+  color: red;
+}
+.pica, .trebol {
+  color: black;
+}
+
+
+.corner-top-left {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 3.5rem;
+}
+
+
+.corner-bottom-right {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 3.5rem;
+  transform: rotate(180deg);
+}
+
+
+.card-value {
+  font-size: 5.5rem;
+  font-weight: bold;
 }
