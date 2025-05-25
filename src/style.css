@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-bottom: 1rem; /* Añadido para separar la carta del botón */
+  margin-bottom: 1rem; 
 }
 
 .corazon, .diamante {

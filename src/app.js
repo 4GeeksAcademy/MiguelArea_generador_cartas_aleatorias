@@ -16,7 +16,7 @@ function generarCarta() {
   const valor = valores[Math.floor(Math.random() * valores.length)];
   const simbolo = simbolos[palo];
 
-  // Clase para color
+ 
   let clase = '';
   switch (palo) {
     case 'corazones': clase = 'corazon'; break;
